@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/pontosRestantesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pontos disponíveis: 27"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/forcaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Força: 8"
+        android:textSize="16sp"/>
+    <Button
+        android:id="@+id/adicionarForcaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar Força"/>
+    <Button
+        android:id="@+id/removerForcaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remover Força"/>
+
+    <TextView
+        android:id="@+id/destrezaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Destreza: 8"
+        android:textSize="16sp"/>
+    <Button
+        android:id="@+id/adicionarDestrezaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar Destreza"/>
+    <Button
+        android:id="@+id/removerDestrezaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remover Destreza"/>
+
+    <TextView
+        android:id="@+id/constituicaoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Constituição: 8"
+        android:textSize="16sp"/>
+    <Button
+        android:id="@+id/adicionarConstituicaoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar Constituição"/>
+    <Button
+        android:id="@+id/removerConstituicaoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remover Constituição"/>
+
+    <TextView
+        android:id="@+id/inteligenciaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inteligência: 8"
+        android:textSize="16sp"/>
+    <Button
+        android:id="@+id/adicionarInteligenciaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar Inteligência"/>
+    <Button
+        android:id="@+id/removerInteligenciaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remover Inteligência"/>
+
+    <TextView
+        android:id="@+id/sabedoriaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sabedoria: 8"
+        android:textSize="16sp"/>
+    <Button
+        android:id="@+id/adicionarSabedoriaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar Sabedoria"/>
+    <Button
+        android:id="@+id/removerSabedoriaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remover Sabedoria"/>
+
+    <TextView
+        android:id="@+id/carismaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carisma: 8"
+        android:textSize="16sp"/>
+    <Button
+        android:id="@+id/adicionarCarismaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar Carisma"/>
+    <Button
+        android:id="@+id/removerCarismaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remover Carisma"/>
+
+    <Button
+        android:id="@+id/proximaPaginaButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Próxima Página"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Campo de entrada para o nome do personagem -->
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Nome do Personagem"
+        android:inputType="text" />
+
+    <!-- Spinner para selecionar a raça -->
+    <Spinner
+        android:id="@+id/spinnerRaca"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Selecione a Raça" />
+
+    <!-- TextView para exibir os bônus da raça selecionada -->
+    <TextView
+        android:id="@+id/textViewBonusRaca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:textSize="16sp" />
+
+    <!-- Campo de entrada para a descrição -->
+    <EditText
+        android:id="@+id/editTextDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Descrição do Personagem"
+        android:inputType="textMultiLine" />
+
+    <!-- Botão para avançar para a próxima tela -->
+    <Button
+        android:id="@+id/buttonProximo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Próximo"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

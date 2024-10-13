@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="nome_personagem">Nome do Personagem</string>
+    <string name="descricao">Descrição</string>
+    <string name="forca">Força</string>
+    <string name="destreza">Destreza</string>
+    <string name="constituicao">Constituição</string>
+    <string name="inteligencia">Inteligência</string>
+    <string name="sabedoria">Sabedoria</string>
+    <string name="carisma">Carisma</string>
+    <string name="salvar">Salvar</string>
+</resources>
